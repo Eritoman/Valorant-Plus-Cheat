@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1D51B03E-8D5E-47D5-A134-59ACD6FEA4C9}") = "Valorant Plus", "Valorant Plus\Valorant Plus.vcxproj", "{47A7DF01-CB04-4B6B-B78B-928572E38C70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47A7DF01-CB04-4B6B-B78B-928572E38C70}.Release|x64.ActiveCfg = Release|x64
+		{47A7DF01-CB04-4B6B-B78B-928572E38C70}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {474C5691-9168-4742-8552-9100103D6513}
+	EndGlobalSection
+EndGlobal
