@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="emgui\imgui.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_demo.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_draw.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_impl_dx9.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_impl_win32.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+    <ClCompile Include="emgui\imgui_widgets.cpp">
+      <Filter>emgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{86EC5002-B2A0-49B7-8904-39873D8C551B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{23AF5188-2EA3-44CE-B581-166F15B2F4D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blabla">
+      <UniqueIdentifier>{F69971A9-14BD-4FEA-B7CD-5826B4C2D1F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emgui">
+      <UniqueIdentifier>{EB681E1B-3DC8-4F04-8597-18FFB6CD5A3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protect">
+      <UniqueIdentifier>{293FE991-E357-439C-B124-8FCB5ABA19D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\cheats.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\theme.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\xor.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\check.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\Func.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\fonthelper.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\icons.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\Images.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\include.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\json.hpp">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\skStr.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="blabla\utils.hpp">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="blabla\download.h">
+      <Filter>blabla</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.hpp" />
+    <ClInclude Include="driver\shelldriver.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\mapper.h" />
+    <ClInclude Include="blabla\protect.h" />
+    <ClInclude Include="blabla\resource.h" />
+    <ClInclude Include="sdk\structs_funcs.h" />
+    <ClInclude Include="emgui\imconfig.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui_impl_dx9.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui_impl_win32.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imgui_internal.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imstb_rectpack.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imstb_textedit.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="emgui\imstb_truetype.h">
+      <Filter>emgui</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="blabla\libcurl.lib" />
+    <Library Include="blabla\library_x64.lib" />
+  </ItemGroup>
+</Project>
